@@ -1,0 +1,92 @@
+.theme-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  z-index: 1000; /* Убедимся, что кнопка выше других элементов */
+}
+
+.theme-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Общие стили для темной темы */
+.dark-theme {
+  background-color: #121212; /* Глубокий тёмный цвет */
+  color: #e0e0e0; /* Светлый текст для читабельности */
+}
+
+/* Стили для заголовков */
+.dark-theme h1, 
+.dark-theme h2, 
+.dark-theme h3, 
+.dark-theme h4, 
+.dark-theme h5, 
+.dark-theme h6 {
+  color: #ffffff;
+}
+
+/* Стили для ссылок */
+.dark-theme a {
+  color: #1e90ff; /* Голубой для выделения ссылок */
+}
+
+.dark-theme a:hover {
+  color: #ffcc00; /* Желтый при наведении */
+}
+
+/* Кнопки в темной теме */
+.dark-theme button {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark-theme button:hover {
+  background-color: #555;
+}
+
+/* Формы в темной теме */
+.dark-theme input, 
+.dark-theme select, 
+.dark-theme textarea {
+  background-color: #222;
+  color: white;
+  border: 1px solid #444;
+}
+
+/* Навигация и подвал */
+.dark-theme header {
+  background-color: #1a1a1a;
+}
+
+.dark-theme footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+}
+
+/* Исправление стилей для index.html */
+.dark-theme .hero {
+  background: #1e1e1e; /* Однородный фон вместо градиента */
+  color: white;
+}
+
+.dark-theme .feature {
+  background-color: #222; /* Затемняем карточки */
+  color: white;
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1); /* Светлая тень */
+}
+
+.dark-theme .cta-button {
+  background-color: #333;
+  color: white;
+}
+
+.dark-theme .cta-button:hover {
+  background-color: #555;
+  color: #ffcc00;
+}

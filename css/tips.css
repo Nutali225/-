@@ -1,0 +1,26 @@
+main {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    color: #333;
+}
+
+button {
+    background-color: #ff4757;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #e84118;
+}
+
+#tipText {
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: italic;
+}

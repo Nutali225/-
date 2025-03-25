@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/weather.css">
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+    <header>
+        <button id="theme-toggle" class="theme-btn">🌞</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="currency.html">Курсы валют</a></li>
+                <li><a href="weather.html">Погода</a></li>
+                <li><a href="calculator.html">Конвертер</a></li>
+                <li><a href="tips.html">Советы</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Прогноз погоды</h1>
+        <label for="city">Введите город:</label>
+        <input type="text" id="city" placeholder="Москва">
+        <button id="getWeather">Получить прогноз</button>
+        <div id="weatherInfo"></div>
+    </main>
+
+    <footer>
+        <p>© 2025 Умный помощник путешественника</p>
+    </footer>
+
+    <script src="js/weather.js"></script>
+    <script src="js/theme.js" defer></script>
+</body>
+</html>
