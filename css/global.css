@@ -1,9 +1,17 @@
 /* Глобальные стили */
-body {
-    font-family: Arial, sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
     background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Основной контент */
+main {
+    flex: 1; /* Заполняет всё доступное пространство */
 }
 
 /* Навигация */
